@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Билли Боб Торнтон</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="70" tabindex="0">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Билли Боб Торнтон</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="info.html">Основная информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Список фильмов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex">
+        <div >
+            <h5>Навигация</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#carousel">Карусель</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#films">Карточки с фильмами</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#actor-info">Краткая информация об актере</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content p-4">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="1.jfif" class="d-block w-100" alt="Билли Боб Торнтон">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="2.jfif" class="d-block w-100" alt="Билли Боб Торнтон">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="3.jfif" class="d-block w-100" alt="Билли Боб Торнтон">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+
+            <div id="films" class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="4.webp" class="card-img-top" alt="Плохой санта">
+                        <div class="card-body">
+                            <h5 class="card-title">Плохой санта</h5>
+                            <p class="card-text">Вилли — необычный Санта-Клаус. Раз в год на Рождество он вместе со своим напарником грабит очередной универмаг. К тому же в прошлом он отсидел в тюрьме, был не единожды женат, а ныне Вилли — злостный бабник и пропойца. Он по-настоящему плохой, невыносимый Санта. Но нашелся мальчуган, который все-таки в него поверил. И Вилли придется творить настоящие чудеса, чтоб на сей раз довести задуманное до конца.</p>
+                            <a href="https://www.kinopoisk.ru/film/1828/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="5.webp" class="card-img-top" alt="Плохой санта 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Плохой санта 2</h5>
+                            <p class="card-text">Продолжение новогодних приключений проходимца Вилли, который в канун Рождества, как всегда, переодевается в Санта-Клауса. Ограбить очередной супермаркет в этом наряде не представляет никаких проблем. Но в Рождество случаются всякие чудеса. Каким оно будет для Вилли на этот раз?</p>
+                            <a href="https://www.kinopoisk.ru/film/577229/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="6.webp" class="card-img-top" alt="Отточенное лезвие">
+                        <div class="card-body">
+                            <h5 class="card-title">Отточенное лезвие</h5>
+                            <p class="card-text">Карл после совершенного им жестокого преступления провел двадцать пять лет в сумасшедшем доме. Возвратившись в город своей молодости, в один из южных штатов Америки, он ведет себя спокойно и разумно. Это помогает ему найти работу и подружиться с мальчиком и его матерью-вдовой. Однако появление отвратительного и грубого любовника этой женщины ставит Карла перед мучительным выбором и ведет к резким переменам в жизни всех, вовлеченных в эту историю.</p>
+                            <a href="https://www.kinopoisk.ru/film/479/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="actor-info" class="mt-4">
+                <h5>Краткая информация об актёре</h5>
+                <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#info">Показать/Скрыть информацию</button>
+                <div class="collapse" id="info">
+                    <p>Билли Боб Торнтон (Billy Bob Thornton) родился 4 августа 1955 года в городе Литл-Рок, штат Арканзас, США.
+                        Он учился в университете Арканзаса, но не закончил его. Вместо этого он начал свою карьеру в актерстве и музыке в конце 1970-х - начале 1980-х годов.
+                        Торнтон был женат несколько раз, наиболее известен его брак с актрисой Анджелиной Джоли, с которой он был женат с 2000 по 2003 год. У него есть четверо детей от разных отношений, включая Дауни, Рейчел, Ларен и Билла. Билли Боб также известен своим эксцентричным поведением и разнообразными музыкальными проектами.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
